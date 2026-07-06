@@ -1,4 +1,6 @@
-# Dynamic Layer Routing Defense for Real-Time Embedded Vision (LeapNet)
+# LeapNet
+
+This is the repo for the EMSOFT2025 “Dynamic Layer Routing Defense for Real-Time Embedded Vision”.
 
 ---
 ### Introduction
@@ -161,6 +163,23 @@ Note that larger "entropy_weights" degrades the latency performance, more "itern
 
 This project is licensed under the MIT License.  
 For details, please refer to the [MIT License terms](https://opensource.org/licenses/MIT).
+
+## Please Cite
+
+Please cite this work as follows:
+
+```bibtex
+@article{ma2025dynamic,
+   title={Dynamic layer routing defense for real-time embedded vision},
+   author={Ma, Zimo and Luo, Xiangzhong and Song, Qun and Tan, Rui},
+   journal={ACM Transactions on Embedded Computing Systems},
+   volume={24},
+   number={5s},
+   pages={1--26},
+   year={2025},
+   publisher={ACM New York, NY}
+}
+```
 
 
 

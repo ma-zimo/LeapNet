@@ -25,6 +25,12 @@
 !latency_prediction_prob.py
 !latency_prediction_v2.py
 
+# Keep the baseline target-model train/eval scripts referenced by the README's
+# Training Commands section (needed to reproduce a pretrained target model
+# before training LeapNet-1/2 on top of it).
+!train.py
+!eval.py
+
 # Keep the LeapNet latency-related reference data used by the README.
 !latency_data_resnet18.xlsx
 !policy_inference_data_resnet18.xlsx

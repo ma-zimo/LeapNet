@@ -42,6 +42,13 @@ Additionally, the storage location of each dataset is specified in the correspon
 For instance, the default path for the KUL dataset is set to '/data4/zimo/KUL/' in dataset/kul.py.
 You can modify this path to match your preferred (downloaded) dataset location.
 
+---
+### Model Weights
+
+The pretrained model weights can be downloaded from the following link:
+
+https://drive.google.com/drive/folders/1kHZaq7tb6f6kcySCE1xTlRfaaxi2qZNv?usp=sharing
+
 --- 
 ### Validation
 

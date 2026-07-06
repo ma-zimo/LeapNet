@@ -1,0 +1,40 @@
+# Ignore everything by default, then explicitly keep only LeapNet-1/2 related files.
+*
+
+!.gitignore
+!README.md
+!environment.yml
+!requirements.txt
+
+# Keep the core LeapNet code.
+!dataset/
+!dataset/**
+!model/
+!model/**
+!images/
+!images/leapnet_pipeline.png
+
+# Keep the LeapNet training / validation scripts.
+!train_leapnet.py
+!train_leapnet-2.py
+!eval_leapnet.py
+!eval_leapnet-2.py
+!eval_lat_leapnet-2.py
+!latency_measurement.py
+!latency_prediction.py
+!latency_prediction_prob.py
+!latency_prediction_v2.py
+
+# Keep the LeapNet latency-related reference data used by the README.
+!latency_data_resnet18.xlsx
+!policy_inference_data_resnet18.xlsx
+
+# Exclude common generated / local files.
+.idea/
+save_models/
+temp.py
+*.pyc
+__pycache__/
+*.log
+*.out
+*.err
